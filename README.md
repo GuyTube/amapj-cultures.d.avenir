@@ -8,26 +8,26 @@ Le projet a été retravaillé dans le cadre de la Licence Pro de Bayonne.
 
 La [procédure](http://amapj.fr/docs_technique_install_pc_dev.html) d'installation originale a été mise à jour.
 
-**Installation de Java**
+### Installation de Java
 Vous devez installer Java 8 minimum.
 
-**Installation de Eclipse**
+### Installation de Eclipse
 Vous devez d'abord visiter la page [Eclipse Download](http://www.eclipse.org/downloads/) pour télécharger Eclipse version Oxygen (Ocotbre 2017).
 
-Vous devez télécharger la version "Eclipse IDE for Java EE Developers"
+Vous devez télécharger la version "Eclipse IDE for Java EE Developers".
 
 Créer un répertoire c:\dev-amapj
 
 Dezipper l'archive que vous avez téléchargé dans ce répertoire, vous obtenez alors c:\dev-amapj\eclipse\
 
-**Installation de Tomcat**
+### Installation de Tomcat
 Vous devez d'abord visiter la page Tomcat Download pour télécharger la dernière version de Tomcat 7
 
 Vous devez télécharger la version "Binary Distributions", Core zip
 
 Vous dezippez le contenu de l'archive dans c:\dev-amapj, vous obtenez alors C:\dev-amapj\apache-tomcat-7.0.64
 
-**Telechargement des sources**
+### Telechargement des sources
 Ne pas télécharger les sources depuis la page (Amapj Download)[http://amapj.fr/download.html] mais à partir du repo github.
 Depuis eclipse OXYGEN, affichez la vue Git : Window -> show view -> other -> git repositories.
 Un nouveau bouton 'Clone a git repository' apparait dans la fenêtre Git
@@ -36,7 +36,7 @@ Host : Github.com
 RepositoryPath : /aliceb64/amapj
 Faire Next et choisir comme destination l'emplacement de votre workspace C:\dev-amapj\workspace\amap
 
-**Configuration Eclipse / Tomcat**
+### Configuration Eclipse / Tomcat
 Lancer Eclipse en double clickant sur C:\dev-amapj\eclipse\eclipse.exe
 
 Quand Eclipse vous le demande, indiquer pour workspace C:\dev-amapj\workspace
@@ -59,7 +59,7 @@ Aller ensuite dans General / Workspace
 
 Au niveau de text file encoding, choississez Other UTF-8, puis faire OK
 
-**Mise en place de AspectJ**
+### Mise en place de AspectJ
 Vous devez ensuite installer le plug in AspectJ
 
 Dans Eclipse, faites  Help / Install new software
@@ -70,7 +70,7 @@ Faites ensuite OK, Select All, décocher bien la case "Contact all update sites 
 
 Faites ensuite OK à la demande de redémarrage de Eclipse
 
-**Création du projet Eclipse**
+### Création du projet Eclipse
 Faites ensuite File / New / Dynamic Web Project
 
 Saisir un nom de projet : amapj
