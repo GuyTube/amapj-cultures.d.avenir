@@ -30,11 +30,15 @@ Vous obtenez alors C:\dev-amapj\apache-tomcat-7.0.64
 
 ### Telechargement des sources
 *Ne pas télécharger les sources depuis la page (Amapj Download)[http://amapj.fr/download.html] mais à partir du repo github*.
+
 Depuis eclipse OXYGEN, affichez la vue Git : Window -> show view -> other -> git repositories.
+
 Un nouveau bouton 'Clone a git repository' apparait dans la fenêtre Git
+```
 URI : https://github.com/aliceb64/amapj
 Host : Github.com
 RepositoryPath : /aliceb64/amapj
+```
 Faire Next et choisir comme destination l'emplacement de votre workspace C:\dev-amapj\workspace\amap
 
 ### Configuration Eclipse / Tomcat
